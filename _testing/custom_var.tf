@@ -38,3 +38,21 @@ variable "management_resources_tags" {
     support   = "cabrego"
   }
 }
+variable "deploy_connectivity_resources" {
+  type    = bool
+  default = true
+}
+
+variable "connectivity_resources_location" {
+  type    = string
+  default = "westus3"
+}
+
+variable "connectivity_resources_tags" {
+  type = map(string)
+  default = {
+    demo_type = "deploy_connectivity_resources_custom"
+    demo_type = "elz-cx1"
+    support   = "cabrego"
+  }
+}
