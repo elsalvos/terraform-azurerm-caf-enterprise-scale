@@ -1,6 +1,6 @@
 {
     "extend_es_root": {
-      "policy_assignments": [], // ["Enforce-Mandatory-Tags"],
+      "policy_assignments": [], 
       "policy_definitions": ["Enforce-RG-Tags", "Enforce-Resource-Tags", "Deny-NIC-NSG"],
       "policy_set_definitions": ["Enforce-Mandatory-Tags"],
       "role_definitions": [],
